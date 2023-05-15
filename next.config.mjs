@@ -18,5 +18,15 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.placehold.co",
+        port: "",
+        pathname: "**",
+      },
+    ],
+  },
 };
 export default config;
